@@ -1,3 +1,4 @@
+/* General Styling */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,48 +13,68 @@ body {
     padding: 20px;
 }
 
+/* Header Styling */
 header {
-    background: #5fb5da;
-    color: white;
-    padding: 10px 20px;
+    background-color: #5fb5da;
+    padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header .logo {
-    max-height: 50px;
-    margin-right: 20px;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
 }
 
 h1 {
-    margin: 0;
     font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    margin: 0;
 }
 
-h1, h2 {
-    padding: 10px 0;
+.logo {
+    height: 60px;
+    margin-left: 20px;
 }
 
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Link and Button Styling */
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
 }
 
-a.button{
+a.button, #confirm {
     background: #5fb5da;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
     text-decoration: none;
     display: inline-block;
+    border: none;
+    cursor: pointer;
 }
 
-a.button:hover {
+a.button:hover, #confirm:hover {
     background: #ddd;
+    color: #333;
 }
 
+/* Table Styling */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -70,30 +91,23 @@ table th {
     background-color: #c9e8f6;
 }
 
+/* Footer Styling */
 footer {
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
     background: #5fb5da;
     color: white;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
 }
 
-#confirm {
-    background: #5fb5da;
-    color: white;
-    padding: 10px 15px;
-    border-radius: 5px;
-    border: none; /* Ensures there's no default border */
-    cursor: pointer;
-    text-align: center; /* Aligns the text properly */
-    display: inline-block; /* Keeps it inline-block like the anchor button */
+/* Additional Utility Classes */
+.text-left {
+    text-align: left;
 }
 
-#confirm:hover {
-    background: #ddd; /* Matches the hover effect for buttons */
-    color: #333; /* Optional: Matches the text color on hover */
+.margin-auto {
+    margin: auto;
 }
 
-
-/*hatoun and lana*/
-
+/*hatoun and lana
