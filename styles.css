@@ -41,7 +41,7 @@ a {
     text-decoration: none;
 }
 
-a.button, #confirm {
+a.button{
     background: #5fb5da;
     color: white;
     padding: 10px 15px;
@@ -77,3 +77,23 @@ footer {
     background: #5fb5da;
     color: white;
 }
+
+#confirm {
+    background: #5fb5da;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none; /* Ensures there's no default border */
+    cursor: pointer;
+    text-align: center; /* Aligns the text properly */
+    display: inline-block; /* Keeps it inline-block like the anchor button */
+}
+
+#confirm:hover {
+    background: #ddd; /* Matches the hover effect for buttons */
+    color: #333; /* Optional: Matches the text color on hover */
+}
+
+
+/*hatoun and lana*/
+
