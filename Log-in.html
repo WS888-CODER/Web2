@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log-in</title>
+  <link rel="stylesheet" href="newStyle.css">
+</head>
+<body  id="walaa">
+  <div class="wcontainer">
+    <div class="wlogo-container">
+      <img src="images/logo.jpg" alt="Logo" class="wlogo">
+    </div>
+    <h1 id= "wh1" style="color: #5fb5da">Log in</h1>
+	  <br><br>
+    <form action="process_login.php" method="post">
+      <div class="form-group">
+        <label for="login-email">Email:</label>
+        <input type="email" id="login-email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="login-password">Password:</label>
+        <input type="password" id="login-password" name="password">
+      </div>
+      <div class="form-group">
+        <label for="login-role">Role:</label>
+        <select id="login-role" name="role">
+          <option value="patient">Patient</option>
+          <option value="doctor">Doctor</option>
+        </select>
+      </div>
+      <button type="submit" class="button">Log in</button>
+    </form>
+  </div>
+</body>
+</html>

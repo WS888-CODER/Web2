@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign-Up Page</title>
+  <link rel="stylesheet" href="newStyle.css">
+</head>
+<body  id="walaa">
+  <div class="wcontainer">
+    <div class="wlogo-container">
+      <img src="images/logo.jpg" alt="Logo" class="wlogo">
+    </div>
+    <h1 id= "wh1" style="color: #5fb5da">Sign up</h1>
+    <div class="role-selection">
+      <label>
+        <input type="radio" name="role" value="patient" onclick="showForm('patient')"> Patient
+      </label>
+      <label>
+        <input type="radio" name="role" value="doctor" onclick="showForm('doctor')"> Doctor
+      </label>
+    </div>
+
+    <!-- Patient Form -->
+    <form id="patient-form" class="hidden" onsubmit="redirectToPage('patient_homepage.html'); return false;">
+      <div class="form-group">
+        <label for="patient-firstname">First Name:</label>
+        <input type="text" id="patient-firstname" name="firstname">
+      </div>
+      <div class="form-group">
+        <label for="patient-lastname">Last Name:</label>
+        <input type="text" id="patient-lastname" name="lastname">
+      </div>
+      <div class="form-group">
+        <label for="patient-id">ID:</label>
+        <input type="text" id="patient-id" name="id">
+      </div>
+      <div class="form-group">
+        <label for="patient-gender">Gender:</label>
+        <select id="patient-gender" name="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="patient-dob">DoB:</label>
+        <input type="date" id="patient-dob" name="dob">
+      </div>
+      <div class="form-group">
+        <label for="patient-email">Email:</label>
+        <input type="email" id="patient-email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="patient-password">Password:</label>
+        <input type="password" id="patient-password" name="password">
+      </div>
+      <a href="patientHomepage.html" class="button">Sign Up</a>
+    </form>
+
+    <!-- Doctor Form -->
+    <form id="doctor-form" class="hidden" onsubmit="redirectToPage('doctor_homepage.html'); return false;">
+      <div class="form-group">
+        <label for="doctor-firstname">First Name:</label>
+        <input type="text" id="doctor-firstname" name="firstname">
+      </div>
+      <div class="form-group">
+        <label for="doctor-lastname">Last Name:</label>
+        <input type="text" id="doctor-lastname" name="lastname">
+      </div>
+      <div class="form-group">
+        <label for="doctor-id">ID:</label>
+        <input type="text" id="doctor-id" name="id">
+      </div>
+      <div class="form-group">
+        <label for="doctor-photo">Photo:</label>
+        <input type="file" id="doctor-photo" name="photo">
+      </div>
+      <div class="form-group">
+        <label for="doctor-speciality">Speciality:</label>
+        <select id="doctor-speciality" name="speciality">
+          <option value="cardiology">Cardiology</option>
+          <option value="neurology">Neurology</option>
+          <option value="orthopedics">Orthopedics</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="doctor-email">Email:</label>
+        <input type="email" id="doctor-email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="doctor-password">Password:</label>
+        <input type="password" id="doctor-password" name="password">
+      </div>
+      <a href="doctorHomepage.html" class="button">Sign Up</a>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

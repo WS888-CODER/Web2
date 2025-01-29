@@ -1,0 +1,358 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background-color: #5fb5da;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h1 {
+    font-size: 1.8rem;
+    color: white;
+    font-weight: 600;
+    margin: 0;
+}
+
+.logo {
+    height: 60px;
+    margin-left: 20px;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Link and Button Styling */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.button, #confirm {
+    background: #5fb5da;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+}
+
+a.button:hover, #confirm:hover {
+    background: #ddd;
+    color: #333;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+table th {
+    background-color: #c9e8f6;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    background: #5fb5da;
+    color: white;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional Utility Classes */
+.text-left {
+    text-align: left;
+}
+
+.margin-auto {
+    margin: auto;
+}
+
+
+
+/*-----------------------------------------------------------------------*/
+
+#appointmentPage {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#appointmentContainer {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 0; 
+}
+
+#pageTitle {
+    background-color: #5fb5da;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0;
+}
+
+#specialtyLabel, #doctorLabel, #dateLabel, #timeLabel, #reasonLabel {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#specialty, #doctor, #date, #time, #reason {
+    width: 100%; 
+    padding: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 0; 
+    margin-top: 5px;
+    background-color: #fff;
+    box-sizing: border-box; 
+}
+
+#reason {
+    height: 100px;
+}
+
+#specialtySubmitButton, #bookingSubmitButton {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5FB5DA;
+    color: white;
+    border: none;
+    border-radius: 0; 
+    cursor: pointer;
+    width: 100%;
+}
+
+#specialtySubmitButton:hover, #bookingSubmitButton:hover {
+    background-color: #4da5c7;
+}
+
+/*-----------------------------------------------------------------------*/
+
+#prescribeMedicationPage {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+#medicationContainer {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+#medicationTitle {
+    background-color: #5fb5da;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0;
+}
+
+#patientNameLabel, #ageLabel, #genderLabel, #medicationsLabel {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#maleLabel, #femaleLabel, #aspirinLabel, #ibuprofenLabel, #paracetamolLabel, #antibioticsLabel {
+    display: block; 
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+#patientName, #age {
+    width: calc(100% - 22px);
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    margin-top: 5px;
+    background-color: #fff;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #5FB5DA;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #4da5c7;
+}
+/*-----------------------------------------------------------------------*/
+/* General Page Styling */
+#walaa {
+  background-color: #c9e8f6;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.wcontainer {
+  background-color: white;
+  width: 60%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  position: relative; /* Ensures logo is positioned within this container */
+}
+
+/* Logo Styling */
+.wlogo-container {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 150px; /* Adjust logo size */
+}
+
+.wlogo {
+  width: 90px;
+  height: 80px;
+}
+
+/* Header Styling */
+#wh1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Role Selection Styling */
+.role-selection {
+  display: flex;
+  gap: 20px; /* Add spacing between Patient and Doctor */
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Form Styling */
+form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button Styling */
+button, .button {
+  background-color: #5fb5da;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .button:hover {
+  background-color: #4aa0c3;
+}
+
+/* Hidden Element Styling */
+.hidden {
+  display: none;
+}
+
+/* Home Page Specific Styling */
+.home-logo {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.home-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.signup-link {
+  margin-top: 10px;
+}
+
+.signup-link a {
+  color: #5fb5da;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}

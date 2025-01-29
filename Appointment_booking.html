@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newStyle.css">
+    <title>Book an Appointment</title>
+</head>
+<body id="appointmentPage">
+    <div class="container" id="appointmentContainer">
+        <h1 id="pageTitle">Book an Appointment</h1>
+
+        <form id="specialtyForm">
+            <label for="specialty" id="specialtyLabel">Select Specialty:</label>
+            <select id="specialty" name="specialty" required>
+                <option value="">Select Specialty</option>
+                <option value="Cardiology">Cardiology</option>
+                <option value="Dentistry">Dentistry</option>
+                <option value="Pediatrics">Pediatrics</option>
+            </select>
+            <button type="submit" id="specialtySubmitButton">Submit Specialty</button>
+        </form>
+
+        <form id="appointmentForm" action="patientHomepage.html" method="post">
+            <label for="doctor" id="doctorLabel">Select Doctor:</label>
+            <select id="doctor" name="doctor" required>
+                <option value="">Select Doctor</option>
+                <option value="Dr. John Smith">Dr. John Smith</option>
+                <option value="Dr. Sarah Johnson">Dr. Sarah Johnson</option>
+                <option value="Dr. Emily Davis">Dr. Emily Davis</option>
+                <option value="Dr. Michael Brown">Dr. Michael Brown</option>
+            </select>
+
+            <label for="date" id="dateLabel">Select Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time" id="timeLabel">Select Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="reason" id="reasonLabel">Reason for Visit:</label>
+            <textarea id="reason" name="reason" rows="4" cols="50" placeholder="Enter the reason for your visit..."></textarea>
+
+            <button type="submit" id="bookingSubmitButton">Submit Booking</button>
+        </form>
+    </div>
+</body>
+</html>

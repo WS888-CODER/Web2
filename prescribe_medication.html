@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newStyle.css">
+    <title>Prescribe Medication</title>
+</head>
+<body id="prescribeMedicationPage">
+    <div class="container" id="medicationContainer">
+        <h1 id="medicationTitle">Patient's Medications</h1>
+        
+        <form id="medicationForm" action="doctorHomepage.html" method="post">
+            <label for="patientName" class="label-main" id="patientNameLabel">Patient's Name:</label>
+            <input type="text" id="patientName" value="John" class="small-input" readonly>
+
+            <label for="age" class="label-main" id="ageLabel">Age:</label>
+            <input type="number" id="age" value="20" min="0" class="age-input">
+
+            <label class="label-main" id="genderLabel">Gender:</label>
+            <label class="label-sub" id="maleLabel"><input type="radio" name="gender" value="male" checked> Male</label>
+            <label class="label-sub" id="femaleLabel"><input type="radio" name="gender" value="female"> Female</label>
+
+            <label class="label-main" id="medicationsLabel">Medications:</label>
+            <label class="label-sub" id="aspirinLabel"><input type="checkbox" value="aspirin" checked> Aspirin</label>
+            <label class="label-sub" id="ibuprofenLabel"><input type="checkbox" value="ibuprofen"> Ibuprofen</label>
+            <label class="label-sub" id="paracetamolLabel"><input type="checkbox" value="paracetamol"> Paracetamol</label>
+            <label class="label-sub" id="antibioticsLabel"><input type="checkbox" value="antibiotics"> Antibiotics</label>
+
+            <button type="submit" id="submitButton">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
