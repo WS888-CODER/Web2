@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Homepage</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="appBody">
+  <header class="header">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo.jpg" alt="Logo" class="logo">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <div id="m-section-container">
+	<div class="hero-doctor">
+			        <h1>Welcome <span>Dr.Smith</span> <br> <span class="greenColor">WELLNEST</span> proud to <br> have you as part of <br>its team</h1>
+</div>
+        <div id="m-section-image-container">
+            <img src="images/doctor.png" alt="Circular Image">
+        </div>
+		
+        <div id="m-section-ovals-container">
+            <div class="m-section-oval" id="oval1">
+                <img src="images/firstName.png" alt="Oval Image 1">
+                <span class="m-section-text">First Name:</span><span>John</span>
+            </div>
+            <div class="m-section-oval" id="oval2">
+                <img src="images/lastName.png" alt="Oval Image 2">
+                <span class="m-section-text">Last Name:</span><span>Smith</span>
+            </div>
+            <div class="m-section-oval" id="oval3">
+                <img src="images/id.png" alt="Oval Image 3">
+                <span class="m-section-text">ID:</span><span>67890</span>
+            </div>
+            <div class="m-section-oval" id="oval4">
+                <img src="images/specialty.png" alt="Oval Image 4">
+                <span class="m-section-text">Specialty:</span><span>Cardiology</span>
+            </div>
+            <div class="m-section-oval" id="oval5">
+                <img src="images/email.png" alt="Oval Image 5">
+                <span class="m-section-text">Email:</span><span>john.smith@example.com</span>
+            </div>
+        </div>
+    </div>
+<br><br><br>
+		<section class="doctorTables">
+		
+<div id="doctorAppointmentsSection">
+
+      
+            <h2>Upcoming Appointments</h2>
+          <table id="upcomingAppointmentsTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Time</th>
+                        <th>Patient's Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Reason for Visit</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2025-01-15</td>
+                        <td>10:00 PM</td>
+                        <td>Jane Alexander</td>
+                        <td>35</td>
+                        <td>Female</td>
+                        <td>Consultation</td>
+                        <td>Confirmed</td>
+                    </tr>
+
+                    <tr>
+                        <td>2025-02-15</td>
+                        <td>12:30 PM</td>
+                        <td>Jane Alexander</td>
+                        <td>35</td>
+                        <td>Female</td>
+						<td>Consultation</td>
+                       <td><button class="upcoming-btn">Confirm</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <h2>Your Patients</h2>
+             <table id="patientsTable">
+                <thead>
+                    <tr>
+                        <th>Patient's Name</th>
+                        <th>Age</th>
+                        <th>Gender</th>
+                        <th>Medications</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane Alexander</td>
+                        <td>35</td>
+                        <td>Female</td>
+                        <td>None</td>
+                        <td><a href="PrescribeMedication.html" class="prescribe-btn">Prescribe</a></td>
+                    </tr>
+
+                    <tr>
+                        <td>Mark James</td>
+                        <td>26</td>
+                        <td>Male</td>
+                        <td>None</td>
+                        <td><a href="PrescribeMedication.html" class="prescribe-btn">Prescribe</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+</div>
+<a href="index.html" class="prescribe-btn">Sign out</a>
+		</section>
+	 <footer class="footer">
+        <p>&copy; 2025 Clinic Website. All Rights Reserved.</p>
+        <p>Contact us: email@example.com | +123-456-7890</p>
+    </footer>
+</body>
+</html>
+
