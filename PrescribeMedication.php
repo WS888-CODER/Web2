@@ -126,7 +126,7 @@ $result = mysqli_query($conn, $query);
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="https://wellnest.infinityfreeapp.com/wellnest/index.php">
                     <img src="images/logo.jpg" alt="Logo" class="logo">
                 </a>
                 <a href="logout.php" class="signup-btn">Logout</a>

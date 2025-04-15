@@ -96,7 +96,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
   <header class="header">
-    <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+    <a href="https://wellnest.infinityfreeapp.com/wellnest/index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
   </header>
   
   <div class="background-overlay"></div>

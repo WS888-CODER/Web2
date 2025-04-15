@@ -67,7 +67,7 @@ $patients_result = mysqli_stmt_get_result($stmt_patients);
 <body class="appBody">
   <header class="header">
     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-        <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+        <a href="https://wellnest.infinityfreeapp.com/wellnest/index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
         <a href="logout.php" class="signup-btn">Logout</a>
     </div>
 </header>

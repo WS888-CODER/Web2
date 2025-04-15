@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg">
             <div class="container">
-                <a class="navbar-brand" href="index.php">
+                <a class="navbar-brand" href="https://wellnest.infinityfreeapp.com/wellnest/index.php">
                     <img src="images/logo.jpg" alt="Logo" class="logo">
                 </a>
                 <a href="login.php"style="text-decoration: none; color: black;"><button class="signup-btn">Log In</button></a>

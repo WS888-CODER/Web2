@@ -59,7 +59,7 @@ if (isset($_GET['cancel_appointment_id'])) {
 <body>
     <header class="header">
     <div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
-        <a href="index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
+        <a href="https://wellnest.infinityfreeapp.com/wellnest/index.php"><img src="images/logo.jpg" alt="Logo" class="logo"></a>
         <a href="logout.php" class="signup-btn">Logout</a>
     </div>
 </header>
